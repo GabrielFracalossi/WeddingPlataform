@@ -1,0 +1,45 @@
+@model EditWeddingSiteViewModel
+
+<h2>Edit Wedding Site</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WeddingDate"></label>
+        <input asp-for="WeddingDate" type="date" class="form-control" />
+        <span asp-validation-for="WeddingDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TemplateId"></label>
+        <select asp-for="TemplateId" class="form-control">
+            @foreach (var template in Model.Templates)
+            {
+                <option value="@template.Id">@template.Name</option>
+            }
+        </select>
+        <span asp-validation-for="TemplateId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CustomCSS"></label>
+        <textarea asp-for="CustomCSS" class="form-control" rows="10"></textarea>
+        <span asp-validation-for="CustomCSS" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CustomHTML"></label>
+        <textarea asp-for="CustomHTML" class="form-control" rows="10"></textarea>
+        <span asp-validation-for="CustomHTML" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

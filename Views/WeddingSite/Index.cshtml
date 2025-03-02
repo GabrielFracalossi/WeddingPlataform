@@ -1,0 +1,24 @@
+@model IEnumerable<WeddingSite>
+
+<h2>My Wedding Sites</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Wedding Site</a>
+</p>
+
+<div class="row">
+    @foreach (var site in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@site.Title</h5>
+                    <p class="card-text">Wedding Date: @site.WeddingDate.ToShortDateString()</p>
+                    <p class="card-text">Template: @(site.Template?.Name ?? "Custom")</p>
+                    <a asp-action="Edit" asp-route-id="@site.Id" class="btn btn-primary">Edit</a>
+                    <a href="/@site.Url" target="_blank" class="btn btn-secondary">View Site</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

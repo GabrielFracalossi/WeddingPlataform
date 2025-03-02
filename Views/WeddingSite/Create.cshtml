@@ -1,0 +1,32 @@
+@model CreateWeddingSiteViewModel
+
+<h2>Create Wedding Site</h2>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WeddingDate"></label>
+        <input asp-for="WeddingDate" type="date" class="form-control" />
+        <span asp-validation-for="WeddingDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TemplateId"></label>
+        <select asp-for="TemplateId" class="form-control">
+            @foreach (var template in Model.Templates)
+            {
+                <option value="@template.Id">@template.Name</option>
+            }
+        </select>
+        <span asp-validation-for="TemplateId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
