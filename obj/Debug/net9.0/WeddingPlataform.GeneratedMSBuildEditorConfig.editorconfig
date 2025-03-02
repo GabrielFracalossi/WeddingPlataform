@@ -17,81 +17,81 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WeddingPlataform
 build_property.RootNamespace = WeddingPlataform
-build_property.ProjectDir = C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\
+build_property.ProjectDir = c:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform
+build_property.MSBuildProjectDirectory = c:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Account/Login.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Account/Register.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/GiftRegistry/Create.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/GiftRegistry/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lmdFJlZ2lzdHJ5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/GiftRegistry/Index.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/GiftRegistry/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lmdFJlZ2lzdHJ5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Home/Index.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Home/Privacy.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Shared/Error.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Template/Create.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Template/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Template/Edit.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Template/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Template/Index.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Template/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/WeddingSite/Create.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/WeddingSite/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1NpdGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/WeddingSite/Edit.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/WeddingSite/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1NpdGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/WeddingSite/Index.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/WeddingSite/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1NpdGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/_ViewImports.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/_ViewStart.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Shared/_Layout.cshtml]
+[c:/Users/gabri/source/repos/GabrielFracalossi/WeddingPlataform/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-acf9a88309

@@ -17,11 +17,6 @@ namespace WeddingPlatform
             // Configure HTTPS
             builder.Services.AddHttpsRedirection(options =>
             {
-                options.HttpsPort = 7235; // Change to a different port
-            });
-            // Configure HTTPS
-            builder.Services.AddHttpsRedirection(options =>
-            {
                 options.HttpsPort = 7235;
             });
 

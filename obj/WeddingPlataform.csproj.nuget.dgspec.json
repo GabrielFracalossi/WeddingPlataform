@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\WeddingPlataform.csproj": {}
+    "c:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\WeddingPlataform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\WeddingPlataform.csproj": {
+    "c:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\WeddingPlataform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\WeddingPlataform.csproj",
+        "projectUniqueName": "c:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\WeddingPlataform.csproj",
         "projectName": "WeddingPlataform",
-        "projectPath": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\WeddingPlataform.csproj",
+        "projectPath": "c:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\WeddingPlataform.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\",
+        "outputPath": "c:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
