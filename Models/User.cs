@@ -1,10 +1,13 @@
 using Microsoft.AspNetCore.Identity;
 
-public class User : IdentityUser
+namespace WeddingPlatform.Models
 {
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public bool IsAdmin { get; set; }
-    public virtual ICollection<WeddingSite> WeddingSites { get; set; }
+    public class User : IdentityUser
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public bool IsAdmin { get; set; }
+        public virtual ICollection<WeddingSite> WeddingSites { get; set; }
+    }
 }

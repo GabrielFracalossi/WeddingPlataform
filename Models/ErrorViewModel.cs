@@ -1,4 +1,4 @@
-namespace WeddingPlataform.Models;
+namespace WeddingPlatform.Models;
 
 public class ErrorViewModel
 {
