@@ -1,0 +1,60 @@
+@model IEnumerable<GiftRegistry>
+
+<h2>Gift Registry</h2>
+
+<p>
+    <a asp-action="Create" asp-route-weddingSiteId="@ViewContext.RouteData.Values["weddingSiteId"]" class="btn btn-primary">Add New Gift</a>
+</p>
+
+<div class="row">
+    @foreach (var gift in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                @if (!string.IsNullOrEmpty(gift.ImageUrl))
+                {
+                    <img src="@gift.ImageUrl" class="card-img-top" alt="@gift.ItemName">
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@gift.ItemName</h5>
+                    <p class="card-text">@gift.Description</p>
+                    <p class="card-text">Price: @gift.Price.ToString("C")</p>
+                    @if (gift.IsPurchased)
+                    {
+                        <p class="text-success">Purchased by: @gift.PurchasedBy</p>
+                    }
+                    else
+                    {
+                        <button class="btn btn-primary purchase-gift" data-gift-id="@gift.Id">Purchase Gift</button>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(function() {
+            $('.purchase-gift').click(function() {
+                var giftId = $(this).data('gift-id');
+                var button = $(this);
+                
+                var purchaserName = prompt("Please enter your name:");
+                if (purchaserName) {
+                    $.post('/GiftRegistry/Purchase', { id: giftId, purchaserName: purchaserName })
+                        .done(function(response) {
+                            if (response.success) {
+                                button.replaceWith(`<p class="text-success">Purchased by: ${purchaserName}</p>`);
+                            } else {
+                                alert('This gift has already been purchased.');
+                            }
+                        })
+                        .fail(function() {
+                            alert('An error occurred while processing your request.');
+                        });
+                }
+            });
+        });
+    </script>
+}
