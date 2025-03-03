@@ -409,3 +409,6 @@ C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\bin\Debug\net9.0\
 C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\obj\Debug\net9.0\compressed\sk7t555a3h-mo6la4e9dr.gz
 C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\obj\Debug\net9.0\compressed\ddw9b9ajm8-63ugei6r6h.gz
+C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\bin\Debug\net9.0\libman.json
+C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\obj\Debug\net9.0\compressed\slyw6ukeq5-03hjc8e09r.gz
+C:\Users\gabri\source\repos\GabrielFracalossi\WeddingPlataform\obj\Debug\net9.0\compressed\03qw3fnes3-48y08845bh.gz
