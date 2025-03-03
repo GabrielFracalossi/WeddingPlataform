@@ -9,6 +9,7 @@
       "WeddingPlataform/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.2",
+          "Microsoft.AspNetCore.Identity.UI": "9.0.2",
           "Microsoft.EntityFrameworkCore.Design": "9.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.2"
@@ -86,6 +87,18 @@
         },
         "runtime": {
           "lib/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "9.0.2.0",
+            "fileVersion": "9.0.225.6704"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.UI/9.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.2",
+          "Microsoft.Extensions.Identity.Stores": "9.0.2"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Identity.UI.dll": {
             "assemblyVersion": "9.0.2.0",
             "fileVersion": "9.0.225.6704"
           }
@@ -592,6 +605,28 @@
           "lib/net9.0/Microsoft.Extensions.DependencyModel.dll": {
             "assemblyVersion": "9.0.0.2",
             "fileVersion": "9.0.225.6610"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/9.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.2"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.225.6610"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/9.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.2"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.225.6704"
           }
         }
       },
@@ -1116,6 +1151,13 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/9.0.2",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.9.0.2.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Identity.UI/9.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2oEQF1jRP7oM/PRKyhw8x1LxuP53xAXSwSMn+zPUH3J65M0wHmNpKTiSRVb4irErtrrK6OP8Y3KRQWiAyz3lbQ==",
+      "path": "microsoft.aspnetcore.identity.ui/9.0.2",
+      "hashPath": "microsoft.aspnetcore.identity.ui.9.0.2.nupkg.sha512"
+    },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1290,6 +1332,20 @@
       "sha512": "sha512-3ImbcbS68jy9sKr9Z9ToRbEEX0bvIRdb8zyf5ebtL9Av2CUCGHvaO5wsSXfRfAjr60Vrq0tlmNji9IzAxW6EOw==",
       "path": "microsoft.extensions.dependencymodel/9.0.2",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/9.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IcOBmTlr2jySswU+3x8c3ql87FRwTVPQgVKaV5AXzPT5u0VItfNU8SMbESpdSp5STwxT/1R99WYszgHWsVkzhg==",
+      "path": "microsoft.extensions.fileproviders.abstractions/9.0.2",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.9.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/9.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-guQjtnav6bkds3jBqvzLUN3CtFhrwwE2MvES4kukalrFnRkFCncumYBrycM3urilJ7ffetA1/XBcD5ChMJa+AA==",
+      "path": "microsoft.extensions.fileproviders.embedded/9.0.2",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.9.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/9.0.2": {
       "type": "package",

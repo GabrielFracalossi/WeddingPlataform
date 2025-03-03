@@ -13,6 +13,7 @@ namespace WeddingPlatform
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages();  // Add this line
 
             // Configure HTTPS
             builder.Services.AddHttpsRedirection(options =>
@@ -37,10 +38,13 @@ namespace WeddingPlatform
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+            else
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
 
             app.UseAuthentication();
@@ -49,7 +53,7 @@ namespace WeddingPlatform
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
-
+            app.MapRazorPages();  // Add this line
             app.Run();
         }
     }
