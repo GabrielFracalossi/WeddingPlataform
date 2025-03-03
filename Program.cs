@@ -2,12 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using WeddingPlatform.Models;
 using WeddingPlatform.Data;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace WeddingPlatform
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -54,7 +55,48 @@ namespace WeddingPlatform
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
             app.MapRazorPages();  // Add this line
-            app.Run();
+            // Initialize Database
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                try
+                {
+                    var context = services.GetRequiredService<ApplicationDbContext>();
+                    var userManager = services.GetRequiredService<UserManager<User>>();
+                    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+                    
+                    await context.Database.EnsureCreatedAsync();
+                    
+                    // Seed initial admin user if not exists
+                    if (!context.Users.Any())
+                    {
+                        var adminRole = new IdentityRole("Admin");
+                        await roleManager.CreateAsync(adminRole);
+
+                        var adminUser = new User
+                        {
+                            UserName = "admin@wedding.com",
+                            Email = "admin@wedding.com",
+                            EmailConfirmed = true,
+                            FirstName = "Admin",
+                            LastName = "User",
+                            CreatedAt = DateTime.UtcNow,
+                            IsAdmin = true,
+                            WeddingSites = new List<WeddingSite>()
+                        };
+
+                        await userManager.CreateAsync(adminUser, "Admin123!");
+                        await userManager.AddToRoleAsync(adminUser, "Admin");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "An error occurred while seeding the database.");
+                }
+            }
+
+            await app.RunAsync();
         }
     }
 }

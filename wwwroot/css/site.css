@@ -1,6 +1,7 @@
 :root {
     --primary-color: #e72e7a;
     --secondary-color: #8c8c8c;
+    --background-color: #f8f9fa;
 }
 
 html {
@@ -9,20 +10,16 @@ html {
     min-height: 100%;
 }
 
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
-}
-
 body {
     margin-bottom: 60px;
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--background-color);
 }
 
 .navbar {
     background-color: white !important;
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    padding: 1rem 0;
 }
 
 .navbar-brand {
@@ -41,9 +38,24 @@ body {
     color: var(--primary-color) !important;
 }
 
+.hero-section {
+    padding: 6rem 0;
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('/images/wedding-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
+    padding: 0.75rem 2rem;
+    font-weight: 600;
 }
 
 .btn-primary:hover {
@@ -51,6 +63,30 @@ body {
     border-color: #d41c67;
 }
 
+.feature-card {
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card i {
+    color: var(--primary-color);
+}
+
+.feature-card h3 {
+    color: #333;
+    margin: 1rem 0;
+}
+
+.feature-card p {
+    color: var(--secondary-color);
+}
 .footer {
     position: absolute;
     bottom: 0;

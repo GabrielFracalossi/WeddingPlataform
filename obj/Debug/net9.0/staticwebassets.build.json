@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6RNt66orVgj5b6H7ez7yddE/hqi1IzrXD7WEMsWeAC8=",
+  "Hash": "hUvp4oT+GtA0KfOkb+EIYEcGaGp2EaXhcvZmIqwEjj4=",
   "Source": "WeddingPlataform",
   "BasePath": "_content/WeddingPlataform",
   "Mode": "Default",
@@ -2243,12 +2243,12 @@
       "OriginalItemSpec": "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-55z5glacq4.gz",
       "SourceId": "WeddingPlataform",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WeddingPlataform",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=55z5glacq4}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2257,8 +2257,8 @@
       "RelatedAsset": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "7gy3l2v0i4",
+      "Integrity": "2cEIcMK4x+HSKwmUue3MpMkZ/BZEA0JrgW6KcqNo3ck=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\wwwroot\\css\\site.css"
@@ -3335,12 +3335,12 @@
       "OriginalItemSpec": "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-xtxxf3hu2r.gz",
+      "Identity": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-mo6la4e9dr.gz",
       "SourceId": "WeddingPlataform",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WeddingPlataform",
-      "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=mo6la4e9dr}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3349,8 +3349,8 @@
       "RelatedAsset": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fpxp8wntf7",
-      "Integrity": "465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=",
+      "Fingerprint": "cvrma86rcb",
+      "Integrity": "mMBY8Tavs7t2yHpms34QtF/1IdcfvMdGSw0qmyDNfRo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\wwwroot\\js\\site.js"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "55z5glacq4",
+      "Integrity": "KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4084,8 +4084,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "mo6la4e9dr",
+      "Integrity": "6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -5353,13 +5353,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-b9sayid5wm.gz",
+      "Route": "css/site.55z5glacq4.css",
+      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-55z5glacq4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.001494768311"
         }
       ],
       "ResponseHeaders": [
@@ -5369,15 +5369,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "668"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"2cEIcMK4x+HSKwmUue3MpMkZ/BZEA0JrgW6KcqNo3ck=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:39:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5397,13 +5397,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "55z5glacq4"
         },
         {
           "Name": "label",
@@ -5411,12 +5411,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.55z5glacq4.css",
       "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5426,7 +5426,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "2017"
         },
         {
           "Name": "Content-Type",
@@ -5434,11 +5434,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:39:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5448,7 +5448,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "55z5glacq4"
         },
         {
           "Name": "label",
@@ -5456,13 +5456,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-b9sayid5wm.gz",
+      "Route": "css/site.55z5glacq4.css.gz",
+      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-55z5glacq4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5471,7 +5471,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "668"
         },
         {
           "Name": "Content-Type",
@@ -5479,11 +5479,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"2cEIcMK4x+HSKwmUue3MpMkZ/BZEA0JrgW6KcqNo3ck=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:39:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5501,7 +5501,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "55z5glacq4"
         },
         {
           "Name": "label",
@@ -5509,7 +5509,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-2cEIcMK4x+HSKwmUue3MpMkZ/BZEA0JrgW6KcqNo3ck="
         }
       ]
     },
@@ -5552,12 +5552,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-55z5glacq4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.001494768311"
         }
       ],
       "ResponseHeaders": [
@@ -5567,15 +5567,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "668"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"2cEIcMK4x+HSKwmUue3MpMkZ/BZEA0JrgW6KcqNo3ck=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:39:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5595,13 +5595,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E="
         }
       ]
     },
@@ -5616,7 +5616,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "2017"
         },
         {
           "Name": "Content-Type",
@@ -5624,11 +5624,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:39:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5638,13 +5638,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-KWWp+Ucy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\ddw9b9ajm8-55z5glacq4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5653,7 +5653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "668"
         },
         {
           "Name": "Content-Type",
@@ -5661,11 +5661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"2cEIcMK4x+HSKwmUue3MpMkZ/BZEA0JrgW6KcqNo3ck=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:39:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5683,7 +5683,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-2cEIcMK4x+HSKwmUue3MpMkZ/BZEA0JrgW6KcqNo3ck="
         }
       ]
     },
@@ -14592,12 +14592,12 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-mo6la4e9dr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005235602094"
+          "Quality": "0.003846153846"
         }
       ],
       "ResponseHeaders": [
@@ -14607,15 +14607,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "259"
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"mMBY8Tavs7t2yHpms34QtF/1IdcfvMdGSw0qmyDNfRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14635,13 +14635,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM="
         }
       ]
     },
@@ -14656,7 +14656,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "326"
         },
         {
           "Name": "Content-Type",
@@ -14664,11 +14664,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14678,13 +14678,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-mo6la4e9dr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14693,7 +14693,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "259"
         },
         {
           "Name": "Content-Type",
@@ -14701,11 +14701,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"mMBY8Tavs7t2yHpms34QtF/1IdcfvMdGSw0qmyDNfRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14723,18 +14723,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+          "Value": "sha256-mMBY8Tavs7t2yHpms34QtF/1IdcfvMdGSw0qmyDNfRo="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-xtxxf3hu2r.gz",
+      "Route": "js/site.mo6la4e9dr.js",
+      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-mo6la4e9dr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005235602094"
+          "Quality": "0.003846153846"
         }
       ],
       "ResponseHeaders": [
@@ -14744,15 +14744,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "259"
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"mMBY8Tavs7t2yHpms34QtF/1IdcfvMdGSw0qmyDNfRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14772,13 +14772,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "mo6la4e9dr"
         },
         {
           "Name": "label",
@@ -14786,12 +14786,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
+      "Route": "js/site.mo6la4e9dr.js",
       "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -14801,7 +14801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "326"
         },
         {
           "Name": "Content-Type",
@@ -14809,11 +14809,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14823,7 +14823,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "mo6la4e9dr"
         },
         {
           "Name": "label",
@@ -14831,13 +14831,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-6vCJq0yUN8K8qGWzEoykbdpDDWmgKXO77cSToV459cM="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-xtxxf3hu2r.gz",
+      "Route": "js/site.mo6la4e9dr.js.gz",
+      "AssetFile": "C:\\Users\\gabri\\source\\repos\\GabrielFracalossi\\WeddingPlataform\\obj\\Debug\\net9.0\\compressed\\sk7t555a3h-mo6la4e9dr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14846,7 +14846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "259"
         },
         {
           "Name": "Content-Type",
@@ -14854,11 +14854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"mMBY8Tavs7t2yHpms34QtF/1IdcfvMdGSw0qmyDNfRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 16:17:40 GMT"
+          "Value": "Mon, 03 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14876,7 +14876,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "mo6la4e9dr"
         },
         {
           "Name": "label",
@@ -14884,7 +14884,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+          "Value": "sha256-mMBY8Tavs7t2yHpms34QtF/1IdcfvMdGSw0qmyDNfRo="
         }
       ]
     },
