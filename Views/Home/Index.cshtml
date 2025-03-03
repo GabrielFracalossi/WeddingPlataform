@@ -16,25 +16,31 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-palette fa-3x mb-3"></i>
-                    <h3>Beautiful Templates</h3>
-                    <p>Choose from our collection of elegant wedding website templates</p>
-                </div>
+                <a href="@Url.Action("Index", "Template")" class="feature-card-link">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-palette fa-3x mb-3"></i>
+                        <h3>Beautiful Templates</h3>
+                        <p>Choose from our collection of elegant wedding website templates</p>
+                    </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-gift fa-3x mb-3"></i>
-                    <h3>Gift Registry</h3>
-                    <p>Create and manage your wedding gift registry with ease</p>
-                </div>
+                <a href="@Url.Action("Index", "GiftRegistry")" class="feature-card-link">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-gift fa-3x mb-3"></i>
+                        <h3>Gift Registry</h3>
+                        <p>Create and manage your wedding gift registry with ease</p>
+                    </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-heart fa-3x mb-3"></i>
-                    <h3>Share Your Love</h3>
-                    <p>Share your story and wedding details with friends and family</p>
-                </div>
+                <a href="@Url.Action("Share", "WeddingSite")" class="feature-card-link">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-heart fa-3x mb-3"></i>
+                        <h3>Share Your Love</h3>
+                        <p>Share your story and wedding details with friends and family</p>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

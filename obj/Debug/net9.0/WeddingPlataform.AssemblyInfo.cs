@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeddingPlataform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b74e5982e47fdeeff46878287bf997af86cb09d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e5fba17ff7307fa8b889de3a20269f28cf8bd7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeddingPlataform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeddingPlataform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

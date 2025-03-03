@@ -19,7 +19,7 @@ namespace WeddingPlatform.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var templates = await _context.Templates.ToListAsync();
+            var templates = await _context.Templates.Where(t => t.IsActive).ToListAsync();
             return View(templates);
         }
 

@@ -119,6 +119,11 @@ namespace WeddingPlatform.Controllers
             return View(model);
         }
     
+        public IActionResult Share()
+        {
+            return View();
+        }
+    
         private string GenerateUniqueUrl(string title)
         {
             var urlBase = title.ToLower().Replace(" ", "-");

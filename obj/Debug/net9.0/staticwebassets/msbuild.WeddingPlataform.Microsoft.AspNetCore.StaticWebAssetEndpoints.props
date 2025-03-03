@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/WeddingPlataform/css/site.55z5glacq4.css">
+    <StaticWebAssetEndpoint Include="_content/WeddingPlataform/css/site.63ugei6r6h.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"55z5glacq4"},{"Name":"integrity","Value":"sha256-KWWp\u002BUcy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E="},{"Name":"label","Value":"_content/WeddingPlataform/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2017"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KWWp\u002BUcy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 03:39:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"63ugei6r6h"},{"Name":"integrity","Value":"sha256-UnLHPzbH1GEqeOU9tS/kvI\u002Bz1UeaDFUirpxPzpRavfU="},{"Name":"label","Value":"_content/WeddingPlataform/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2244"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UnLHPzbH1GEqeOU9tS/kvI\u002Bz1UeaDFUirpxPzpRavfU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 03:48:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WeddingPlataform/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KWWp\u002BUcy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2017"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KWWp\u002BUcy391ljIYW/DtC67SXciziJmWBdxkVbtoVg2E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 03:39:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UnLHPzbH1GEqeOU9tS/kvI\u002Bz1UeaDFUirpxPzpRavfU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2244"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UnLHPzbH1GEqeOU9tS/kvI\u002Bz1UeaDFUirpxPzpRavfU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 03:48:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WeddingPlataform/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
